@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+.row{
+    @apply grid grid-cols-12 gap-2 md:gap-4
+}
+.white_btn{
+    @apply bg-white text-primary px-6 md:px-12 py-2 hover:bg-primary hover:text-white rounded-md font-bold cursor-pointer w-fit
+}
+.heading{
+    @apply text-3xl md:text-4xl font-bold
+}
+.btn{
+    @apply bg-action text-white px-5 py-2 hover:bg-white hover:text-action font-semibold cursor-pointer w-fit border-2 border-action
+}
+
+.smallHeading{
+    @apply text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold
+}
+.subHeading{
+    @apply text-lg md:text-xl xl:text-xl font-semibold
+}
+.paragraph{
+    @apply text-sm md:text-base
+}
+.headerText{
+    @apply text-xs lg:text-sm xl:text-lg
+}
+.topBarText{
+    @apply text-xs lg:text-sm xl:text-base
+}
+.smallBtn{
+    @apply text-xs md:text-sm inline-block font-semibold bg-action text-white rounded w-fit cursor-pointer py-3 px-4
+}
+.exploreBtn{
+    @apply text-base md:text-lg xl:text-xl text-white bg-action rounded-xl inline-block px-6 md:px-12 py-3
+}
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

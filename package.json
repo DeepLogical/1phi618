@@ -1,0 +1,21 @@
+{
+  "name": "AmitKK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./resources/css/app.css -o ./css/app.css --watch",
+    "git": "git add . && git commit -a -m `commit` && git push",
+    "push": "git add . && git commit -a -m `commit` && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "postcss-nested": "^5.0.6"
+  }
+}
